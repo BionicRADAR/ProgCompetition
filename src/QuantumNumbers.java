@@ -5,7 +5,7 @@ public class QuantumNumbers {
 		Scanner s = new Scanner(System.in);
 
 		while(true){
-			System.out.println("Enter three integers: ");
+			System.out.println("Enter Three Integers: ");
 			String input = s.nextLine();
 			String ints[] = input.split(" ");
 			int n = Integer.parseInt(ints[0]);
@@ -16,16 +16,16 @@ public class QuantumNumbers {
 				System.exit(0);
 			
 			if(n < 1){
-				System.out.println("invalid n");
+				System.out.println("Invalid n");
 			}
 			else if(p < 0 || p > n-1){
-				System.out.println("invalid p");
+				System.out.println("Invalid p");
 			}
 			else if(m < -p || m > p){
-				System.out.println("invalid m");
+				System.out.println("Invalid m");
 			}
 			else{
-				System.out.println("valid");
+				System.out.println("Valid");
 			}
 			
 		}
