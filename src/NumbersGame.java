@@ -15,7 +15,7 @@ public class NumbersGame {
 					break;
 				int testNo = b * b - a * a - a * b;
 				if (testNo == -1 || testNo == 1) {
-					System.out.println("The two three-digit integers are:  " + a + " " + b);
+					System.out.println("The two three-digit integers are: " + a + " " + b);
 					return;
 				}
 			}
