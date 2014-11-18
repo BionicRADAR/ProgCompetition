@@ -8,6 +8,7 @@ public class Mystery {
 		int numSets = Integer.parseInt(s.nextLine());
 		String answer = "";
 		for (int i = 0; i < numSets; i++) {
+			answer += (i+1) + " ";
 			s.nextLine();
 			char[] charSet = s.nextLine().toCharArray();
 			int numDirections = Integer.parseInt(s.nextLine());
