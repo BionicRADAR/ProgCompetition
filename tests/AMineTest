@@ -1,0 +1,29 @@
+10 16
+A I 1 2
+B I 0 2
+C N 2 3
+D N 1 6
+E N 0 3
+F N 3 4
+G N 5 4
+H N 15 3
+I O 3 2
+J O 6 3
+A C 6
+A D 2
+B D 1
+B E 0
+C F 0
+C G 9
+D F 24
+D G 4
+D H 6
+D E 2
+E H 8
+F I 1
+F J 5
+G I 6
+G J 9
+H J 4
+
+0 0
