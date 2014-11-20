@@ -1,0 +1,37 @@
+Enter Three Integers: 3 3 4
+Invalid p
+Enter Three Integers: -1 2 3
+Invalid n
+Enter Three Integers: 3 2 -4
+Invalid m
+Enter Three Integers: 2 1 -1
+Valid
+Enter Three Integers: 2 -1 1
+Invalid p
+Enter Three Integers: 2 1 0
+Valid
+Enter Three Integers: 2 0 3
+Invalid m
+Enter Three Integers: 1 2 3
+Invalid p
+Enter Three Integers: 5 0 -4
+Invalid m
+Enter Three Integers: 5 4 -2
+Valid
+Enter Three Integers: 5 4 2
+Valid
+Enter Three Integers: 2 2 2
+Invalid p
+Enter Three Integers: 3 2 2
+Valid
+Enter Three Integers: 3 2 -2
+Valid
+Enter Three Integers: 3 2 0
+Valid
+Enter Three Integers: 3 2 1
+Valid
+Enter Three Integers: 3 2 -1
+Valid
+Enter Three Integers: 0 1 1
+Invalid n
+Enter Three Integers: 0 0 0
