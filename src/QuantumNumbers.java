@@ -5,7 +5,7 @@ public class QuantumNumbers {
 		Scanner s = new Scanner(System.in);
 
 		while(true){
-			System.out.println("Enter Three Integers: ");
+			System.out.print("Enter Three Integers: ");
 			String input = s.nextLine();
 			String ints[] = input.split(" ");
 			int n = Integer.parseInt(ints[0]);
