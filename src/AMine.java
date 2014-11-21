@@ -20,6 +20,10 @@ public class AMine {
 			s.nextLine();
 			if (v == 0)
 				break;
+			nodes = new HashMap<String, Node>();
+			entrances = new HashSet<Node>();
+			exits = new HashSet<Node>();
+			queue = new ArrayList<Node>();
 			for (int i = 0; i < v; i++) {
 				Scanner n = new Scanner(s.nextLine());
 				char name = n.next().charAt(0);
@@ -56,6 +60,8 @@ public class AMine {
 						queue.add(ed.other);
 						other.isQueued = true;
 					}
+					if (other.isQueued && !queue.contains(other))
+						continue;
 					int newDan = n.totalDan + ed.danger + other.danger;
 					if (newDan < other.totalDan) {
 						other.totalDan = newDan;
