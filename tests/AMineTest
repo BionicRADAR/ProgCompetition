@@ -50,7 +50,6 @@ F I 17
 G I 1
 G J 10
 H J 7
-10 B D C F G I 
 9 8
 A I 2 1
 B N 5 2
@@ -69,6 +68,22 @@ E F 14
 F G 16
 G H 8
 H I 0
+8 7
+A I 50 1
+B N 30 2
+C O 40 1
+D I 0 2
+E N 0 3
+F N 0 3
+G O 0 2
+H I 0 0
+A B 10
+B C 20
+D E 0
+D F 0
+E F 0
+E G 0
+F G 0
 20 42
 A I 39 2
 B I 31 3
