@@ -37,8 +37,7 @@ public class RationalNumbers {
 	}
 
 	private static void simplify(){
-		int num = (f3.n * f3.n < f3.d * f3.d) ? f3.n : f3.d;
-		System.out.println(f3);
+		int num = (f3.n * f3.n < f3.d * f3.d) ? Math.abs(f3.n) : Math.abs(f3.d);
 		for(int i = num; i > 1; i--){
 			if(f3.n % i == 0 && f3.d % i == 0){
 				f3.n = f3.n / i;
