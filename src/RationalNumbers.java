@@ -16,7 +16,7 @@ public class RationalNumbers {
 			f2 = new Rational(arguments[2]);
 
 			if(f1.n == 0 && f1.d == 0 && op == '+' && f2.n == 0 && f2.d == 0){
-				System.exit(0);
+				break;
 			}	
 			
 			commonDenominator();
@@ -33,11 +33,12 @@ public class RationalNumbers {
 			simplify();
 			printAnswer();
 		}
+		s.close();
 	}
 
 	private static void simplify(){
 		int num = (f3.n * f3.n < f3.d * f3.d) ? f3.n : f3.d;
-		
+		System.out.println(f3);
 		for(int i = num; i > 1; i--){
 			if(f3.n % i == 0 && f3.d % i == 0){
 				f3.n = f3.n / i;
@@ -60,11 +61,12 @@ public class RationalNumbers {
 	
 	//Finds the simplist common denominator - will be simplified later 
 	private static void commonDenominator(){
+		int f1old = f1.d;
 		if(f1.d != f2.d){
 			f1.n = f1.n * f2.d;
 			f1.d = f1.d * f2.d;
-			f2.n = f2.n * f1.d;
-			f2.d = f2.d * f1.d;
+			f2.n = f2.n * f1old;
+			f2.d = f1.d;
 		}
 	}
 
